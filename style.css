@@ -16,6 +16,7 @@ body button {
   width: 100%;
   height: auto;
 }
+
 .hero-cover-txt {
   position: absolute;
   top: 20%;
@@ -323,11 +324,10 @@ body button {
 }
 
 /* 1 row frame1 */
-.cards-1-row-allday-picture {
-  filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.2));
+
+.cards-1-row-allday-picture img {
   border-radius: 15px;
 }
-
 .cards-1-row-allday-title h3 {
   font-size: 1.5vw;
   font-weight: 800;
@@ -349,19 +349,18 @@ body button {
 }
 .cards-1-row-allday-paragraph-2 p {
   font-size: 1vw;
+  line-height: 2vw;
   font-style: italic;
   font-weight: 800;
-  line-height: 2vw;
+
   text-align: left;
   color: #d43b4a;
 }
 /* 1 row frame2 */
 
-.cards-1-row-sharper-picture {
-  filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.2));
+.cards-1-row-sharper-picture img {
   border-radius: 15px;
 }
-
 .cards-1-row-sharper-title h3 {
   font-size: 1.5vw;
   font-weight: 800;
@@ -379,9 +378,9 @@ body button {
 
 .cards-1-row-sharper-paragraph-2 p {
   font-size: 1vw;
+  line-height: 2vw;
   font-style: italic;
   font-weight: 800;
-  line-height: 2vw;
   text-align: left;
   color: #d43b4a;
 }
@@ -392,8 +391,7 @@ body button {
 
 /* 2 row frame3 */
 
-.cards-2-row-calmness-picture {
-  filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.2));
+.cards-2-row-calmness-picture img {
   border-radius: 15px;
 }
 
@@ -414,15 +412,14 @@ body button {
 
 .cards-2-row-calmness-paragraph-2 p {
   font-size: 1vw;
+  line-height: 2vw;
   font-style: italic;
   font-weight: 800;
-  line-height: 2vw;
   text-align: left;
   color: #d43b4a;
 }
 /* 2 row frame4 */
-.cards-2-row-improved-picture {
-  filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.2));
+.cards-2-row-improved-picture img {
   border-radius: 15px;
 }
 
@@ -443,9 +440,9 @@ body button {
 
 .cards-2-row-improved-paragraph-2 p {
   font-size: 1vw;
+  line-height: 2vw;
   font-style: italic;
   font-weight: 800;
-  line-height: 2vw;
   text-align: left;
   color: #d43b4a;
 }
@@ -462,10 +459,8 @@ body button {
   background: #ffd800;
   border-radius: 15px;
   border: none;
-  font-style: normal;
+  font-size: 3vw;
   font-weight: 800;
-  font-size: 30px;
-  line-height: 30px;
   text-align: center;
   text-transform: uppercase;
   color: #363636;
@@ -477,9 +472,8 @@ body button {
   justify-content: center;
 }
 .cards-btn-text p {
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 400;
-  line-height: 28px;
   color: #363636;
   padding: 10px;
 }
@@ -489,7 +483,9 @@ body button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 50px 300px;
+  overflow: hidden;
+  position: relative;
 }
 .testimonials-01-first {
   background: #ffffff;
@@ -501,21 +497,33 @@ body button {
   background: #f1f0f5;
   border-radius: 15px;
   margin-right: 20px;
-  max-width: 600px;
+  padding: 10px;
+  width: 1100px;
 }
 .testimonials-01-text p {
-  font-size: 15px;
+  font-size: 1vw;
   font-style: italic;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.5vw;
   text-align: left;
   color: #363636;
   padding: 10px 20px;
 }
+.testimonials-01-text-1 {
+  font-size: 1vw;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5vw;
+  text-align: left;
+  color: #363636;
+  padding: 10px 20px;
+}
+.testimonials-01-text {
+  padding-bottom: 80px;
+}
 .testimonials-01-signature p {
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 800;
-  line-height: 28px;
   text-align: left;
   color: #549663;
 }
@@ -527,10 +535,14 @@ body button {
 }
 .testimonials-01-signature-ticks {
   position: relative;
-  max-width: 20%;
+  opacity: 0.3;
   left: 80%;
-  opacity: 0.5;
-  margin: -20px;
+  top: 30%;
+  margin-bottom: -50px;
+}
+.testimonials-01-signature-ticks svg {
+  position: relative;
+  width: 60px;
 }
 
 /* TESTEMONIALS-02 */
@@ -544,22 +556,22 @@ body button {
   background: #f1f0f5;
   border-radius: 15px;
   margin-right: 20px;
-  max-width: 550px;
+  padding: 10px;
+  width: 1100px;
 }
 
 .testimonials-02-text p {
-  font-size: 15px;
+  font-size: 1vw;
   font-style: italic;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.5vw;
   text-align: left;
   color: #363636;
   padding: 10px 20px;
 }
 .testimonials-02-signature p {
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 800;
-  line-height: 28px;
   text-align: left;
   color: #549663;
 }
@@ -570,10 +582,14 @@ body button {
 }
 .testimonials-02-signature-ticks {
   position: relative;
-  max-width: 20%;
-  left: 80%;
-  opacity: 0.5;
-  margin: -20px;
+  opacity: 0.3;
+  left: 78%;
+  top: 20%;
+  margin-bottom: -50px;
+}
+.testimonials-02-signature-ticks svg {
+  position: relative;
+  width: 60px;
 }
 
 /* PAGE 03 */
@@ -581,287 +597,82 @@ body button {
 .page-03 {
   background-color: #ffffff;
 }
-.page-03-subtitle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.page-03-heading h2 {
-  font-style: normal;
-  font-size: 30px;
+.page-03-heading h1 {
+  font-size: 2.5vw;
   font-weight: 800;
-  line-height: 52px;
+  line-height: 3.5vw;
   text-align: center;
   color: #549663;
+  padding-top: 30px;
 }
-.page-03-title h4 {
-  font-style: normal;
-  font-size: 22px;
+.page-03-title h2 {
+  font-size: 2vw;
   font-weight: 800;
-  line-height: 38px;
+  line-height: 3vw;
   text-align: center;
   color: #363636;
-  max-width: 60%;
+  padding: 15px 150px;
 }
 
 /* INGREDIENT LIST */
 #page-03-ingredient-list {
   padding-top: 40px;
 }
-/* INGREDIENT LIST Ashwagandha */
+
 .test01 {
   display: flex;
-  align-items: center;
-  justify-content: center;
   padding-bottom: 20px;
 }
-#list-01-Ashwagandha {
+.test01 {
+  padding: 20px 300px;
+}
+.ingredient {
   background-color: #f7f7f7;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  max-width: 70%;
-  padding: 30px;
-  max-height: 50%;
+  padding: 20px;
 }
 .list-01-frame {
   display: flex;
 }
 .list-01-frame-text-title h2 {
-  font-style: normal;
-  font-size: 27px;
+  font-size: 1.8vw;
   font-weight: 800;
-  line-height: 52px;
+  line-height: 3vw;
   text-align: left;
   color: #549663;
   text-transform: capitalize;
 }
+.list-01-frame-text {
+  max-width: 55%;
+}
 .list-01-frame-text-paragraph p {
-  font-style: normal;
-  font-size: 13px;
+  font-size: 0.8vw;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.4vw;
   text-align: left;
   color: #363636;
-  max-width: 80%;
 }
-.list-01-frame-text-bold {
-  padding: 20px;
-}
+
 .list-01-frame-text-bold li {
-  font-style: normal;
-  font-size: 13px;
+  font-size: 0.8vw;
   font-weight: 800;
-  line-height: 28px;
+  line-height: 1.4vw;
   text-align: left;
   color: #363636;
 }
 
-.list-01-frame-img img {
-  padding-top: 20px;
-}
-/* INGREDIENT LIST Neurofactor */
-#list-02-Neurofactor {
-  background-color: #f7f7f7;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  max-width: 70%;
-  padding: 30px;
-  max-height: 50%;
-}
-.list-01-frame-text-bold li span {
-  font-style: normal;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #363636;
-}
-/* INGREDIENT LIST Synapsa */
-#list-03-Synapsa {
-  background-color: #f7f7f7;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  max-width: 70%;
-  padding: 30px;
-  max-height: 50%;
+.list-01-frame-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
 }
 
-.list-01-frame-text-bold li span {
-  font-style: normal;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: left;
-  color: #363636;
-}
-/* INGREDIENT LIST CoffeeBerry */
-#list-04-CoffeeBerry {
-  background-color: #f7f7f7;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  max-width: 70%;
-  padding: 30px;
-  max-height: 50%;
-}
-.list-01-frame-text-bold li span {
-  font-style: normal;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #363636;
-}
-
-/* INGREDIENT LIST ZumXR */
-#list-05-ZumXR {
-  background-color: #f7f7f7;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  max-width: 70%;
-  padding: 30px;
-  max-height: 50%;
-}
-.list-01-frame-text-bold li span {
-  font-style: normal;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #363636;
-}
-
-/* INGREDIENT LIST Suntheanine */
-#list-06-Suntheanine {
-  background-color: #f7f7f7;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  max-width: 70%;
-  padding: 30px;
-  max-height: 50%;
-}
-.list-01-frame-text-bold li span {
-  font-style: normal;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #363636;
-}
-
-/* INGREDIENT LIST Schisandra-extract  */
-#list-07-Schisandra-extract {
-  background-color: #f7f7f7;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  max-width: 70%;
-  padding: 30px;
-  max-height: 50%;
-}
-#list-07-Schisandra-extract #list-07-bold {
-  font-style: normal;
-  font-size: 13px;
-  font-weight: 800;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #363636;
-}
-
-/* INGREDIENT LIST Cordyceps */
-#list-08-Cordyceps {
-  background-color: #f7f7f7;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  max-width: 70%;
-  padding: 30px;
-  max-height: 50%;
-}
-#list-08-Cordyceps .list-01-frame-text-bold {
-  font-style: normal;
-  font-size: 13px;
-  font-weight: 800;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #363636;
-}
-
-/* INGREDIENT LIST Beet-juice-extract */
-#list-09-Beet-juice-extract {
-  background-color: #f7f7f7;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  max-width: 70%;
-  padding: 30px;
-  max-height: 50%;
-}
-#Beet-juice-extract .list-01-frame-text-bold {
-  font-style: normal;
-  font-size: 13px;
-  font-weight: 800;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #363636;
-}
-
-/* INGREDIENT LIST Grape-seed-extract */
-#list-10-Grape-seed-extract {
-  background-color: #f7f7f7;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  max-width: 70%;
-  padding: 30px;
-  max-height: 50%;
-}
-#list-10-Grape-seed-extract .list-01-frame-text-paragraph span {
-  font-style: normal;
-  font-size: 13px;
-  font-weight: 800;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #363636;
-}
-
-/* INGREDIENT LIST Alma */
-#list-11-Alma {
-  background-color: #f7f7f7;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  max-width: 70%;
-  padding: 30px;
-  max-height: 50%;
-}
-#Beet-juice-extract .list-01-frame-text-bold {
-  font-style: normal;
-  font-size: 13px;
-  font-weight: 800;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #363636;
-}
-
-/* INGREDIENT LIST S7™ */
-#list-12-S7 {
-  background-color: #f7f7f7;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  max-width: 70%;
-  padding: 30px;
-}
-#Beet-juice-extract .list-01-frame-text-bold {
-  font-style: normal;
-  font-size: 13px;
-  font-weight: 800;
-  line-height: 28px;
-  letter-spacing: 0em;
+.list-01-frame-text-bolds span {
+  font-size: 0.8vw;
+  font-weight: 200;
+  line-height: 1.4vw;
   text-align: left;
   color: #363636;
 }
@@ -875,19 +686,18 @@ body button {
   background-color: #549663;
 }
 .page-04-heading h2 {
-  font-style: normal;
-  font-size: 40px;
+  font-size: 2.5vw;
   font-weight: 400;
-  line-height: 52px;
+  line-height: 3.5vw;
   text-align: center;
   color: #ffffff;
   padding-bottom: 30px;
 }
 .page-04-heading h2 span {
   font-style: normal;
-  font-size: 40px;
+  font-size: 2.5vw;
   font-weight: 800;
-  line-height: 52px;
+  line-height: 3.5px;
   text-align: center;
   color: #ffffff;
   padding-bottom: 30px;
@@ -910,46 +720,42 @@ body button {
   transform: translate(-50%, -50%);
   max-width: 15px;
 }
-.body-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .test-body {
-  max-width: 55%;
+  max-width: 60%;
+  margin: 0 auto;
+}
+.body-text-test {
+  padding-bottom: 15px;
 }
 .body-text-paragraph p {
-  font-style: normal;
-  font-size: 15px;
+  font-size: 1vw;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 2vw;
   color: #363636;
 }
 
 .paragraph-bold {
-  font-style: normal;
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 28px;
+  font-size: 1vw;
+  font-weight: 800;
+  line-height: 2vw;
   color: #363636;
 }
 .body-text-paragraph .green-and-lean {
-  font-style: normal;
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 28px;
+  font-size: 1vw;
+  font-weight: 800;
+  line-height: 2vw;
   color: #549663;
 }
 .MBG {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 20px 0;
 }
 .MBG-01 {
   position: relative;
-  max-width: 80%;
+  max-width: 75%;
   background: #549663;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
@@ -959,12 +765,12 @@ body button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 30px;
-  max-width: 800px;
+  padding: 10px 30px;
 }
 .MBG-body-title-text {
   align-items: center;
   justify-content: center;
+  max-width: 70%;
 }
 .MBG-body-title-img {
   display: flex;
@@ -972,52 +778,53 @@ body button {
   justify-content: center;
   z-index: 999;
 }
-.MBG-heading {
-  padding-top: 30px;
-}
 .MBG-heading h2 {
   font-style: normal;
-  font-size: 22px;
+  font-size: 2.5vw;
   font-weight: 800;
-  line-height: 32px;
+  line-height: 3.5vw;
   text-align: center;
   color: #ffffff;
   text-transform: capitalize;
-  padding-bottom: 30px;
+  padding-top: 20px;
 }
 .MBG-body-title p {
-  font-style: normal;
-  font-size: 15px;
-  font-weight: 100;
-  line-height: 18px;
+  font-size: 1.2vw;
+  font-weight: 200;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .MBG-body-title span {
   font-style: normal;
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 18px;
+  font-size: 1.2vw;
+  font-weight: 800;
+  line-height: 1.5px;
   color: #ffffff;
 }
 .MBG-body-subtitle p {
   font-style: normal;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 18px;
+  font-size: 1.2vw;
+  font-weight: 200;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .MBG-body-subtitle span {
   font-style: normal;
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 18px;
+  font-size: 1.2vw;
+  font-weight: 200;
+  line-height: 1.5vw;
   color: #ffffff;
 }
+.MBG-body-title-text-main {
+  padding-bottom: 15px;
+}
+
 .MBG-body-title-img2 {
-  margin-left: -60px;
+  margin-left: -70px;
+  padding-bottom: 130px;
 }
 .MBG-body-subtitle {
-  padding: 20px 30px;
+  padding: 20px;
 }
 .MBG-body-subtitle-simbol img {
   position: absolute;
@@ -1033,13 +840,7 @@ body button {
   background: #f1f0f5;
 }
 .page-05-heading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.page-05-heading-subtitle {
-  max-width: 920px;
-  padding: 20px;
+  margin: 0 auto;
 }
 .page-05-features {
   display: flex;
@@ -1066,52 +867,46 @@ body button {
 .page-05-features-img {
   padding: 60px;
 }
-.page-05-heading-title h2 {
-  font-style: normal;
-  font-size: 40px;
-  font-weight: 800;
-  line-height: 50px;
+.page-05-heading h2 {
+  font-size: 2.5vw;
+  font-weight: 600;
+  line-height: 3vw;
   color: #549663;
-  padding: 20px;
+  padding-top: 20px;
+
   text-align: center;
 }
-.page-05-heading-subtitle h4 {
-  font-style: normal;
-  font-weight: 800;
-  font-size: 30px;
-  line-height: 38px;
+.page-05-heading h4 {
+  font-weight: 600;
+  font-size: 1.7vw;
+  line-height: 2.5vw;
   color: #363636;
   text-align: center;
+  padding: 10px 300px;
 }
 
 .page-05-features-left-text .text-left h5 {
-  font-style: normal;
-  font-size: 22px;
+  font-size: 1.5vw;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 2vw;
   color: #363636;
   text-align: right;
 }
 .text-left {
-  max-width: 250px;
-  padding-bottom: 20px;
-  padding-right: 20px;
+  padding: 10px 15px 10px 100px;
 }
 .tik-left {
-  margin-bottom: 25px;
+  padding: 10px;
 }
 .page-05-features-right-text .text-right h5 {
-  font-style: normal;
-  font-size: 22px;
+  font-size: 1.5vw;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 2vw;
   text-align: left;
   color: #363636;
 }
 .text-right {
-  max-width: 300px;
-  padding-bottom: 25px;
-  padding-left: 20px;
+  padding: 10px 100px 15px 10px;
 }
 /* PAGE 06 */
 .page-06 {
@@ -1119,13 +914,12 @@ body button {
   background-size: cover;
 }
 .page-06-heading h2 {
-  font-style: normal;
-  font-size: 40px;
+  font-size: 2.5vw;
   font-weight: 800;
-  line-height: 52px;
-  text-align: left;
-  color: #363636;
+  line-height: 2.5vw;
   text-align: center;
+  color: #363636;
+  padding: 30px;
 }
 .page-06-row-1 {
   display: flex;
@@ -1194,9 +988,9 @@ body button {
   padding-bottom: 20px;
 }
 .heading-text h2 {
-  font-size: 20px;
+  font-size: 2.5vw;
   font-weight: 800;
-  line-height: 32px;
+  line-height: 3vw;
   text-align: center;
   color: #363636;
 }
@@ -1210,11 +1004,10 @@ body button {
   border: #549663;
   text-align: left;
   outline: none;
-  font-size: 13px;
+  font-size: 1vw;
   transition: 0.4s;
-  font-size: 16px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 2vw;
   text-align: left;
   color: #ffffff;
   padding: 20px;
@@ -1222,13 +1015,13 @@ body button {
 }
 
 .accordion:hover {
-  background-color: #319e4b;
+  background-color: #013007;
 }
 
 .panel p {
-  font-size: 12px;
+  font-size: 0.7px;
   font-weight: 400;
-  line-height: 15px;
+  line-height: 1.2vw;
   text-align: center;
   color: #363636;
   padding: 10px;
@@ -1261,9 +1054,9 @@ body button {
 }
 
 .header p {
-  font-size: 15px;
+  font-size: 1vw;
   font-weight: 800;
-  line-height: 20px;
+  line-height: 2vw;
   text-align: center;
   color: #363636;
 }
@@ -1275,9 +1068,9 @@ body button {
   padding-left: 15px;
 }
 .under-line p {
-  font-size: 12px;
+  font-size: 0.7px;
   font-weight: 800;
-  line-height: 20px;
+  line-height: 1.4vw;
   text-align: center;
   color: #363636;
 }
@@ -1285,16 +1078,16 @@ body button {
   margin: 0 250px;
 }
 .footer-text p {
-  font-size: 12px;
+  font-size: 0.7vw;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.4vw;
   text-align: center;
   color: #363636;
 }
 .end-text p {
-  font-size: 12px;
+  font-size: 0.7vw;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.4vw;
   text-align: center;
   color: #363636;
   border-style: ridge;
@@ -1306,7 +1099,7 @@ body button {
 }
 /* MEDIA QUERY */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   .hero-cover-txt {
     position: absolute;
     max-width: 100px;
@@ -1374,5 +1167,130 @@ body button {
   }
   .third-frame img {
     width: 15px;
+  }
+  .page-02-heading-frame-text h3 {
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .page-02-heading-frame-text h2 {
+    font-size: 2vw;
+    font-weight: 800;
+    color: #ffffff;
+  }
+  .page-02-heading-frame-text-elipse {
+    left: 90%;
+  }
+  .cards {
+    padding: 5px 20px;
+  }
+  .cards-1-row {
+    display: block;
+    padding-top: 20px;
+  }
+  .cards-1-row-allday-title h3 {
+    padding: 5px;
+  }
+  .cards-1-row-sharper-title h3 {
+    padding: 5px;
+  }
+  .cards-2-row {
+    display: block;
+    padding-top: 20px;
+  }
+  .cards-2-row-calmness-title h3 {
+    padding: 5px;
+  }
+  .cards-2-row-improved h3 {
+    padding: 5px;
+  }
+  .cards-btn-text img {
+    width: 15px;
+  }
+  .testimonials {
+    display: block;
+    padding: 20px;
+  }
+  .testimonials-01 {
+    width: 200px;
+  }
+  .testimonials-01-text {
+    padding: 0;
+  }
+  .testimonials-02 {
+    width: 200px;
+  }
+  .testimonials-02-first {
+    padding-top: 15px;
+  }
+  .testimonials-01-signature {
+    display: block;
+  }
+  .testimonials-01-signature-ticks svg {
+    width: 20px;
+  }
+  .testimonials-02-signature {
+    display: block;
+  }
+  .testimonials-02-signature-ticks svg {
+    width: 20px;
+  }
+  .page-03-heading h1 {
+    padding: 5px 25px;
+  }
+  .page-03-subtitle h2 {
+    padding: 5px 25px;
+  }
+  #page-03-ingredient-list {
+    padding: 10px;
+  }
+  .test01 {
+    padding: 5px 10px;
+  }
+  .list-01-frame {
+    display: block;
+  }
+
+  .page-04-heading-frame-text {
+    padding-bottom: 5px;
+  }
+  .page-04-heading-frame-text-elipse {
+    left: 90%;
+  }
+  .MBG-heading {
+    padding-top: 5px;
+  }
+  .MBG-body-title {
+    display: block;
+  }
+  .page-05-heading h4 {
+    padding: 10px 30px;
+  }
+  .page-05-features {
+    display: block;
+  }
+  .tik-left svg {
+    width: 10px;
+  }
+  .tik-left {
+    padding: 0;
+  }
+  .page-06-row-1 {
+    display: block;
+  }
+  .FAQ {
+    margin: 0 50px;
+  }
+  .footer-container {
+    padding: 10px;
+  }
+  .under-line {
+    margin: 0 50px;
+  }
+  .footer-text {
+    margin: 0 50px;
+  }
+  .end-text {
+    margin: 0 50px;
   }
 }
