@@ -72,7 +72,7 @@ body button {
 }
 
 /* PAGE 01 */
-.page-01 {
+.main-page-CTA {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -264,7 +264,7 @@ body button {
   align-items: center;
   justify-content: center;
   padding: 10px 0 20px 0;
-  margin: 0 450px;
+  margin: 0 200px;
 }
 
 .page-CTA-third-frame-text p {
@@ -621,7 +621,6 @@ body button {
 
 .test01 {
   display: flex;
-  padding-bottom: 20px;
 }
 .test01 {
   padding: 20px 300px;
@@ -635,6 +634,9 @@ body button {
 .list-01-frame {
   display: flex;
 }
+.list-01-frame-text-title {
+  padding: 10px 0;
+}
 .list-01-frame-text-title h2 {
   font-size: 1.8vw;
   font-weight: 800;
@@ -647,15 +649,18 @@ body button {
   max-width: 55%;
 }
 .list-01-frame-text-paragraph p {
-  font-size: 0.8vw;
+  font-size: 1vw;
   font-weight: 400;
   line-height: 1.4vw;
   text-align: left;
   color: #363636;
 }
 
+.list-01-frame-text-bold {
+  padding-top: 20px;
+}
 .list-01-frame-text-bold li {
-  font-size: 0.8vw;
+  font-size: 1vw;
   font-weight: 800;
   line-height: 1.4vw;
   text-align: left;
@@ -938,7 +943,6 @@ body button {
   background: #ffffff;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  max-width: 500px;
   margin: 10px;
 }
 .elipse {
@@ -951,15 +955,21 @@ body button {
   background: no-repeat url(images/Ellipse\ 1.png);
   background-size: cover;
 }
+.elipse-elements-svg {
+  width: 43px;
+}
+.elipse-elements-svg svg {
+  position: relative;
+  left: 2px;
+  top: 1;
+}
 .page06-title {
   padding: 10px;
 }
 .page-06-title h6 {
-  font-style: normal;
-  font-size: 24px;
+  font-size: 2vw;
   font-weight: 800;
-  line-height: 32px;
-  letter-spacing: 0em;
+  line-height: 3vw;
   text-align: center;
   color: #549663;
 }
@@ -968,10 +978,9 @@ body button {
   padding: 20px;
 }
 .page-06-text p {
-  font-style: normal;
-  font-size: 15px;
+  font-size: 1.2vw;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.5vw;
   text-align: center;
   color: #363636;
 }
@@ -1019,7 +1028,7 @@ body button {
 }
 
 .panel p {
-  font-size: 0.7px;
+  font-size: 0.7vw;
   font-weight: 400;
   line-height: 1.2vw;
   text-align: center;
@@ -1041,8 +1050,7 @@ body button {
   justify-content: center;
   padding: 30px 0;
 }
-
-.line hr {
+.under-line .line hr {
   border: 3px solid #f1f0f5;
 }
 .under-line {
@@ -1068,7 +1076,7 @@ body button {
   padding-left: 15px;
 }
 .under-line p {
-  font-size: 0.7px;
+  font-size: 0.7vw;
   font-weight: 800;
   line-height: 1.4vw;
   text-align: center;
@@ -1099,7 +1107,7 @@ body button {
 }
 /* MEDIA QUERY */
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 480px) {
   .hero-cover-txt {
     position: absolute;
     max-width: 100px;
@@ -1263,11 +1271,29 @@ body button {
   .MBG-body-title {
     display: block;
   }
+  .page-05 {
+    border-radius: 15px;
+    margin: 0 55px;
+  }
   .page-05-heading h4 {
     padding: 10px 30px;
   }
   .page-05-features {
     display: block;
+  }
+  .page-05-features-img {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .page-05-features-right {
+    padding-left: 25px;
+  }
+  .page-05-features-right-main {
+    padding: 10px 15px 15px 10px;
+  }
+  .tik-left svg {
+    width: 10px;
   }
   .tik-left svg {
     width: 10px;
