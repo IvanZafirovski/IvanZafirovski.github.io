@@ -35,7 +35,7 @@ body button {
 }
 
 .hero-cover-txt h3 {
-  font-size: 1.5rem;
+  font-size: 25px;
   font-weight: 400;
   color: #363636;
   max-width: 400px;
@@ -43,7 +43,7 @@ body button {
 }
 
 .hero-cover-txt .one-of-a-kind {
-  font-size: 1.5rem;
+  font-size: 25px;
   font-weight: 800;
   color: #363636;
 }
@@ -52,21 +52,21 @@ body button {
   padding: 20px 300px;
 }
 .page-01-heading h2 {
-  font-size: 2vw;
+  font-size: 2.5vw;
   font-weight: 400;
   text-align: center;
   color: #363636;
 }
 
 .page-01-heading h2 #green-txt {
-  font-size: 2vw;
+  font-size: 2.5vw;
   font-weight: 800;
   text-align: center;
   color: #549663;
 }
 
 #page-01-01-frame-89 h4 {
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-weight: 800;
   text-align: center;
   color: #363636;
@@ -189,6 +189,7 @@ body button {
   border-style: solid;
   border-color: rgba(230, 236, 224, 0.5);
   border-radius: 15px;
+  margin-left: 20px;
 }
 .subscribe-save {
   background: #549663;
@@ -493,7 +494,7 @@ body button {
   text-align: center;
   text-transform: uppercase;
   color: #363636;
-  width: 600px;
+  width: 500px;
 }
 
 .cards-btn-text {
@@ -501,7 +502,7 @@ body button {
   justify-content: center;
 }
 .cards-btn-text p {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   font-weight: 400;
   color: #363636;
   padding: 10px;
@@ -511,7 +512,6 @@ body button {
 .testimonials {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 50px 300px;
   overflow: hidden;
   position: relative;
@@ -527,7 +527,7 @@ body button {
   border-radius: 15px;
   margin-right: 20px;
   padding: 10px;
-  width: 1100px;
+  width: 1200px;
 }
 .testimonials-01-text p {
   font-size: 1vw;
@@ -536,19 +536,17 @@ body button {
   line-height: 1.5vw;
   text-align: left;
   color: #363636;
-  padding: 10px 20px;
+  padding: 10px 10px 80px 10px;
 }
-.testimonials-01-text-1 {
+
+.testimonials-01-text-1 p {
   font-size: 1vw;
   font-style: italic;
   font-weight: 400;
   line-height: 1.5vw;
   text-align: left;
   color: #363636;
-  padding: 10px 20px;
-}
-.testimonials-01-text {
-  padding-bottom: 80px;
+  padding: 10px;
 }
 .testimonials-01-signature p {
   font-size: 1.5vw;
@@ -566,7 +564,7 @@ body button {
   position: relative;
   opacity: 0.3;
   left: 80%;
-  top: 30%;
+
   margin-bottom: -50px;
 }
 .testimonials-01-signature-ticks svg {
@@ -586,7 +584,7 @@ body button {
   border-radius: 15px;
   margin-right: 20px;
   padding: 10px;
-  width: 1100px;
+  width: 1200px;
 }
 
 .testimonials-02-text p {
@@ -613,7 +611,6 @@ body button {
   position: relative;
   opacity: 0.3;
   left: 78%;
-  top: 20%;
   margin-bottom: -50px;
 }
 .testimonials-02-signature-ticks svg {
@@ -644,7 +641,7 @@ body button {
 }
 
 /* INGREDIENT LIST */
-#page-03-ingredient-list {
+.page-03-ingredient-list {
   padding-top: 40px;
 }
 
@@ -691,6 +688,14 @@ body button {
 .list-01-frame-text-bold li {
   font-size: 1vw;
   font-weight: 800;
+  line-height: 1.6vw;
+  text-align: left;
+  color: #363636;
+}
+
+.regular {
+  font-size: 1.5vw;
+  font-weight: 400;
   line-height: 1.6vw;
   text-align: left;
   color: #363636;
@@ -1260,7 +1265,7 @@ body button {
   .page-03-subtitle h2 {
     padding: 5px 25px;
   }
-  #page-03-ingredient-list {
+  .page-03-ingredient-list {
     padding: 10px;
   }
   .test01 {
@@ -1620,6 +1625,9 @@ body button {
     width: 30px;
     margin: 0;
   }
+  .page-CTA-plan-02 {
+    margin: 0;
+  }
   .page-CTA-third-frame {
     margin: 0;
     padding: 0;
@@ -1667,6 +1675,9 @@ body button {
   .testimonials-01-text {
     padding: 0;
   }
+  .testimonials-01-text p {
+    padding: 10px;
+  }
   .testimonials-02 {
     width: 200px;
   }
@@ -1712,6 +1723,14 @@ body button {
   }
   .MBG-body-title {
     display: block;
+  }
+  .MBG-body-subtitle-txt p {
+    font-size: 1.8vw;
+    line-height: 2vw;
+  }
+  .MBG-body-title p {
+    font-size: 1.8vw;
+    line-height: 2vw;
   }
   .page-05 {
     border-radius: 15px;
@@ -1760,5 +1779,30 @@ body button {
   }
   .end-text {
     margin: 0 50px;
+  }
+  .accordion {
+    font-size: 2vw;
+  }
+  .panel p {
+    font-size: 1.7vw;
+    line-height: 2vw;
+  }
+  .header {
+    padding: 5px;
+  }
+  .header p {
+    font-size: 1.5vw;
+  }
+  .under-line p {
+    font-size: 1.7vw;
+    line-height: 2vw;
+  }
+  .footer-text p {
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+  }
+  .last p {
+    font-size: 1.2vw;
+    line-height: 1.5vw;
   }
 }
