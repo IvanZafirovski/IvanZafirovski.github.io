@@ -19,18 +19,18 @@ body button {
 
 .hero-cover-txt {
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 20%;
-  max-width: 450px;
 }
 .hero-cover-txt h1 {
   color: #363636;
-  font-size: 2.5rem;
-  font-weight: 400;
+  font-size: 45px;
+  font-weight: 500;
+  max-width: 480px;
 }
 .hero-cover-txt .green {
   color: #549663;
-  font-size: 2.5rem;
+  font-size: 45px;
   font-weight: 800;
 }
 
@@ -38,6 +38,8 @@ body button {
   font-size: 1.5rem;
   font-weight: 400;
   color: #363636;
+  max-width: 400px;
+  padding-top: 15px;
 }
 
 .hero-cover-txt .one-of-a-kind {
@@ -281,7 +283,7 @@ body button {
 }
 .page-02-heading-frame-text h3 {
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: 200;
   text-align: center;
   color: #ffffff;
@@ -289,7 +291,7 @@ body button {
 .page-02-heading-frame-text h2 {
   font-style: normal;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 2vw;
   text-align: center;
   color: #ffffff;
 }
@@ -651,7 +653,7 @@ body button {
 .list-01-frame-text-paragraph p {
   font-size: 1vw;
   font-weight: 400;
-  line-height: 1.4vw;
+  line-height: 1.6vw;
   text-align: left;
   color: #363636;
 }
@@ -662,7 +664,7 @@ body button {
 .list-01-frame-text-bold li {
   font-size: 1vw;
   font-weight: 800;
-  line-height: 1.4vw;
+  line-height: 1.6vw;
   text-align: left;
   color: #363636;
 }
@@ -677,7 +679,7 @@ body button {
 .list-01-frame-text-bolds span {
   font-size: 0.8vw;
   font-weight: 200;
-  line-height: 1.4vw;
+  line-height: 1.6vw;
   text-align: left;
   color: #363636;
 }
@@ -1078,7 +1080,7 @@ body button {
 .under-line p {
   font-size: 0.7vw;
   font-weight: 800;
-  line-height: 1.4vw;
+  line-height: 1.6vw;
   text-align: center;
   color: #363636;
 }
@@ -1088,14 +1090,14 @@ body button {
 .footer-text p {
   font-size: 0.7vw;
   font-weight: 400;
-  line-height: 1.4vw;
+  line-height: 1.6vw;
   text-align: center;
   color: #363636;
 }
 .end-text p {
   font-size: 0.7vw;
   font-weight: 400;
-  line-height: 1.4vw;
+  line-height: 1.6vw;
   text-align: center;
   color: #363636;
   border-style: ridge;
@@ -1107,11 +1109,12 @@ body button {
 }
 /* MEDIA QUERY */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1024px) {
   .hero-cover-txt {
     position: absolute;
-    max-width: 100px;
+    max-width: 300px;
   }
+
   .hero-cover-txt h1 {
     color: #363636;
     font-size: 2.5vw;
@@ -1127,6 +1130,455 @@ body button {
     font-size: 1.5vw;
     font-weight: 400;
     color: #363636;
+  }
+  .hero-cover-txt .one-of-a-kind {
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: #363636;
+  }
+  .page-01-heading {
+    padding: 5px 50px;
+  }
+  .purshase-CTA {
+    padding: 5px;
+  }
+
+  .page-CTA-plan-01 {
+    margin-right: 40px;
+  }
+  .sub-plan-01-sub-frame-product img {
+    width: 150px;
+    margin: 0;
+  }
+  .sub-plan-01-sub-frame-product svg {
+    width: 30px;
+  }
+  .buy-now img {
+    position: absolute;
+    padding-left: 40px;
+    margin-top: -15px;
+  }
+
+  .btn-buy-now {
+    width: 200px;
+  }
+  .sub-plan-02-sub-frame-product4 img {
+    width: 200px;
+    left: 30px;
+  }
+  .sub-plan-02-sub-frame-product4 svg {
+    width: 30px;
+    margin: 0;
+  }
+  .page-CTA-third-frame {
+    margin: 0;
+    padding: 0;
+  }
+  .third-frame img {
+    width: 15px;
+  }
+  .page-02-heading-frame-text-elipse {
+    left: 90%;
+  }
+  .cards {
+    padding: 5px 20px;
+  }
+  .cards h3 {
+    font-size: 2vw;
+  }
+  .cards p {
+    font-size: 1.5vw;
+  }
+  .green-and-lean {
+    font-size: 1.5vw;
+  }
+  .list-01-frame-text p {
+    font-size: 1.5vw;
+  }
+  .list-01-frame-text-bold li {
+    font-size: 1.5vw;
+  }
+  .list-01-frame-text {
+    max-width: 100%;
+  }
+  .cards-1-row {
+    display: block;
+    padding-top: 20px;
+  }
+  .cards-1-row-allday-title h3 {
+    padding: 5px;
+  }
+  .cards-1-row-sharper-title h3 {
+    padding: 5px;
+  }
+  .cards-2-row {
+    display: block;
+    padding-top: 20px;
+  }
+  .cards-2-row-calmness-title h3 {
+    padding: 5px;
+  }
+  .cards-2-row-improved h3 {
+    padding: 5px;
+  }
+  .cards-btn-text img {
+    width: 15px;
+  }
+  .testimonials {
+    align-items: normal;
+    padding: 20px;
+  }
+  .testimonials-01 {
+    width: 200px;
+  }
+  .testimonials-01-text {
+    padding: 0;
+  }
+  .testimonials-02 {
+    width: 200px;
+  }
+  .testimonials-02-first {
+    padding-top: 15px;
+  }
+  .testimonials-01-signature-ticks svg {
+    width: 20px;
+  }
+  .testimonials-02-signature-ticks svg {
+    width: 20px;
+  }
+  .page-03-heading h1 {
+    padding: 5px 25px;
+  }
+  .page-03-subtitle h2 {
+    padding: 5px 25px;
+  }
+  #page-03-ingredient-list {
+    padding: 10px;
+  }
+  .test01 {
+    padding: 5px 10px;
+  }
+  .list-01-frame {
+    display: block;
+  }
+
+  .page-04-heading-frame-text {
+    padding-bottom: 5px;
+  }
+
+  .MBG-heading {
+    padding-top: 5px;
+  }
+  .MBG-body-title {
+    display: block;
+  }
+  .page-05 {
+    border-radius: 15px;
+    margin: 0 55px;
+  }
+  .page-05-heading h4 {
+    padding: 10px 30px;
+  }
+  .page-05-features {
+    display: block;
+  }
+  .page-05-features-img {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .page-05-features-right {
+    padding-left: 25px;
+  }
+  .page-05-features-right-main {
+    padding: 10px 15px 15px 10px;
+  }
+  /* .tik-left svg {
+    width: 10px;
+  }
+  .tik-left svg {
+    width: 10px;
+  } */
+  .tik-left {
+    padding: 5px;
+  }
+  .page-06-row-1 {
+    display: block;
+  }
+  .FAQ {
+    margin: 0 50px;
+  }
+  .footer-container {
+    padding: 10px;
+  }
+  .under-line {
+    margin: 0 50px;
+  }
+  .footer-text {
+    margin: 0 50px;
+  }
+  .end-text {
+    margin: 0 50px;
+  }
+  .row1-first-element {
+    max-width: 100%;
+  }
+  .page-06-text {
+    max-width: 100%;
+  }
+}
+
+/* MEDIA QUERY MAX 760PX */
+
+@media only screen and (max-width: 760px) {
+  .hero-cover-txt {
+    position: absolute;
+    max-width: 200px;
+  }
+
+  .hero-cover-txt h1 {
+    color: #363636;
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+  .hero-cover-txt .green {
+    color: #549663;
+    font-size: 2.5vw;
+    font-weight: 800;
+  }
+
+  .hero-cover-txt h3 {
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #363636;
+  }
+  .hero-cover-txt .one-of-a-kind {
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: #363636;
+  }
+  .page-01-heading {
+    padding: 5px 50px;
+  }
+
+  .purshase-CTA {
+    display: block;
+    padding: 5px;
+  }
+
+  .page-CTA-plan-01 {
+    margin-right: 0;
+  }
+  .sub-plan-01-sub-frame-product img {
+    width: 150px;
+    margin: 0;
+  }
+  .sub-plan-01-sub-frame-product svg {
+    width: 30px;
+  }
+  .buy-now img {
+    position: absolute;
+    padding-left: 40px;
+    margin-top: -15px;
+  }
+
+  .btn-buy-now {
+    width: 200px;
+  }
+  .sub-plan-02-sub-frame-product4 img {
+    width: 200px;
+    left: 30px;
+  }
+  .sub-plan-02-sub-frame-product4 svg {
+    width: 30px;
+    margin: 0;
+  }
+  .page-CTA-third-frame {
+    margin: 0;
+    padding: 0;
+  }
+  .third-frame img {
+    width: 15px;
+  }
+  .page-02-heading-frame-text-elipse {
+    left: 90%;
+  }
+  .cards {
+    padding: 5px 20px;
+  }
+  .cards h3 {
+    font-size: 2vw;
+  }
+  .cards p {
+    font-size: 1.5vw;
+  }
+  .green-and-lean {
+    font-size: 1.5vw;
+  }
+  .list-01-frame-text p {
+    font-size: 1.5vw;
+  }
+  .list-01-frame-text-bold li {
+    font-size: 1.5vw;
+  }
+  .list-01-frame-text {
+    max-width: 100%;
+  }
+  .cards-1-row {
+    display: block;
+    padding-top: 20px;
+  }
+  .cards-1-row-allday-title h3 {
+    padding: 5px;
+  }
+  .cards-1-row-sharper-title h3 {
+    padding: 5px;
+  }
+  .cards-2-row {
+    display: block;
+    padding-top: 20px;
+  }
+  .cards-2-row-calmness-title h3 {
+    padding: 5px;
+  }
+  .cards-2-row-improved h3 {
+    padding: 5px;
+  }
+  .cards-btn-text img {
+    width: 15px;
+  }
+  .testimonials {
+    display: block;
+    padding: 20px;
+  }
+  .testimonials-01 {
+    width: 200px;
+  }
+  .testimonials-01-text {
+    padding: 0;
+  }
+  .testimonials-02 {
+    width: 200px;
+  }
+  .testimonials-02-first {
+    padding-top: 15px;
+  }
+  .testimonials-01-signature {
+    display: block;
+  }
+  .testimonials-01-signature-ticks svg {
+    width: 20px;
+  }
+  .testimonials-02-signature {
+    display: block;
+  }
+  .testimonials-02-signature-ticks svg {
+    width: 20px;
+  }
+  .page-03-heading h1 {
+    padding: 5px 25px;
+  }
+  .page-03-subtitle h2 {
+    padding: 5px 25px;
+  }
+  #page-03-ingredient-list {
+    padding: 10px;
+  }
+  .test01 {
+    padding: 5px 10px;
+  }
+  .list-01-frame {
+    display: block;
+  }
+
+  .page-04-heading-frame-text {
+    padding-bottom: 5px;
+  }
+  .MBG-heading {
+    padding-top: 5px;
+  }
+  .MBG-body-title {
+    display: block;
+  }
+  .page-05 {
+    border-radius: 15px;
+    margin: 0 55px;
+  }
+  .page-05-heading h4 {
+    padding: 10px 30px;
+  }
+  .page-05-features {
+    display: block;
+  }
+  .page-05-features-img {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .page-05-features-right {
+    padding-left: 25px;
+  }
+  .page-05-features-right-main {
+    padding: 10px 15px 15px 10px;
+  }
+  .tik-left svg {
+    width: 10px;
+  }
+  .tik-left svg {
+    width: 10px;
+  }
+  .tik-left {
+    padding: 0;
+  }
+  .page-06-row-1 {
+    display: block;
+  }
+  .FAQ {
+    margin: 0 50px;
+  }
+  .footer-container {
+    padding: 10px;
+  }
+  .under-line {
+    margin: 0 50px;
+  }
+  .footer-text {
+    margin: 0 50px;
+  }
+  .end-text {
+    margin: 0 50px;
+  }
+  .row1-first-element {
+    max-width: 100%;
+  }
+  .page-06-text {
+    max-width: 100%;
+  }
+}
+/* MEDIA QUERY MAX 480 PX */
+
+@media only screen and (max-width: 480px) {
+  .hero-cover-txt {
+    position: absolute;
+  }
+  .hero-cover-txt h1 {
+    color: #363636;
+    font-size: 2.5vw;
+    font-weight: 400;
+    max-width: 120px;
+  }
+  .hero-cover-txt .green {
+    color: #549663;
+    font-size: 2.5vw;
+    font-weight: 800;
+  }
+
+  .hero-cover-txt h3 {
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #363636;
+    max-width: 120px;
+    padding-top: 5px;
   }
   .hero-cover-txt .one-of-a-kind {
     font-size: 1.5vw;
