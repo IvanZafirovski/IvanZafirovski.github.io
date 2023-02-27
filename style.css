@@ -320,13 +320,41 @@ body button {
 }
 .cards-1-row {
   display: flex;
+  justify-content: center;
 }
 .cards {
   padding: 40px 150px;
 }
 
 /* 1 row frame1 */
-
+.cards-1-row-allday {
+  max-width: 40%;
+  padding: 10px;
+}
+.cards-1-row-allday-txt-all {
+  padding: 10px;
+}
+.cards-1-row-shaprer {
+  max-width: 40%;
+  padding: 10px;
+}
+.cards-1-row-sharper-txt-all {
+  padding: 10px;
+}
+.cards-2-row-calmness {
+  max-width: 40%;
+  padding: 10px;
+}
+.cards-2-row-calmness-txt-all {
+  padding: 10px;
+}
+.cards-2-row-improved {
+  max-width: 40%;
+  padding: 10px;
+}
+.cards-2-row-improved-txt-all {
+  padding: 10px;
+}
 .cards-1-row-allday-picture img {
   border-radius: 15px;
 }
@@ -354,7 +382,6 @@ body button {
   line-height: 2vw;
   font-style: italic;
   font-weight: 800;
-
   text-align: left;
   color: #d43b4a;
 }
@@ -976,7 +1003,7 @@ body button {
   color: #549663;
 }
 .page-06-text {
-  max-width: 300px;
+  max-width: 400px;
   padding: 20px;
 }
 .page-06-text p {
@@ -1201,26 +1228,7 @@ body button {
   .list-01-frame-text {
     max-width: 100%;
   }
-  .cards-1-row {
-    display: block;
-    padding-top: 20px;
-  }
-  .cards-1-row-allday-title h3 {
-    padding: 5px;
-  }
-  .cards-1-row-sharper-title h3 {
-    padding: 5px;
-  }
-  .cards-2-row {
-    display: block;
-    padding-top: 20px;
-  }
-  .cards-2-row-calmness-title h3 {
-    padding: 5px;
-  }
-  .cards-2-row-improved h3 {
-    padding: 5px;
-  }
+
   .cards-btn-text img {
     width: 15px;
   }
@@ -1293,12 +1301,7 @@ body button {
   .page-05-features-right-main {
     padding: 10px 15px 15px 10px;
   }
-  /* .tik-left svg {
-    width: 10px;
-  }
-  .tik-left svg {
-    width: 10px;
-  } */
+
   .tik-left {
     padding: 5px;
   }
@@ -1412,6 +1415,7 @@ body button {
   .cards p {
     font-size: 1.5vw;
   }
+
   .green-and-lean {
     font-size: 1.5vw;
   }
@@ -1426,26 +1430,21 @@ body button {
   }
   .cards-1-row {
     display: block;
-    padding-top: 20px;
   }
-  .cards-1-row-allday-title h3 {
-    padding: 5px;
+  .cards-1-row-allday {
+    max-width: 100%;
   }
-  .cards-1-row-sharper-title h3 {
-    padding: 5px;
+  .cards-1-row-shaprer {
+    max-width: 100%;
   }
   .cards-2-row {
     display: block;
-    padding-top: 20px;
   }
-  .cards-2-row-calmness-title h3 {
-    padding: 5px;
+  .cards-2-row-calmness {
+    max-width: 100%;
   }
-  .cards-2-row-improved h3 {
-    padding: 5px;
-  }
-  .cards-btn-text img {
-    width: 15px;
+  .cards-2-row-improved {
+    max-width: 100%;
   }
   .testimonials {
     display: block;
@@ -1646,30 +1645,21 @@ body button {
   }
   .cards-1-row {
     display: block;
-    padding-top: 20px;
   }
-  .cards-1-row-allday-title h3 {
-    padding: 5px;
+  .cards-1-row-allday {
+    max-width: 100%;
   }
-  .cards-1-row-sharper-title h3 {
-    padding: 5px;
+  .cards-1-row-shaprer {
+    max-width: 100%;
   }
-  .cards-2-row {
+  .cards-1-row {
     display: block;
-    padding-top: 20px;
   }
-  .cards-2-row-calmness-title h3 {
-    padding: 5px;
+  .cards-2-row-calmness {
+    max-width: 100%;
   }
-  .cards-2-row-improved h3 {
-    padding: 5px;
-  }
-  .cards-btn-text img {
-    width: 15px;
-  }
-  .testimonials {
-    display: block;
-    padding: 20px;
+  .cards-2-row-improved {
+    max-width: 100%;
   }
   .testimonials-01 {
     width: 200px;
